@@ -1,4 +1,4 @@
-# M-ADDA
+# M-ADDA: Metric-based Adversarial Discriminative Domain 
 
 To obtain the test results, run the following command,
 
