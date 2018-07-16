@@ -1,4 +1,4 @@
-# M-ADDA: Metric-based Adversarial Discriminative Domain 
+# M-ADDA: Metric-based Adversarial Discriminative Domain Adaptation
 
 To obtain the test results, run the following command,
 
@@ -27,3 +27,14 @@ python main.py -e usps2mnist mnist2usps uspsBig2mnistBig mnistBig2uspsBig -m tra
 Source (MNIST)            |  Target (USPS)
 :-------------------------:|:-------------------------:
 ![](figures/src_mnistBig2uspsBig.png)  |  ![](figures/tgt_mnistBig2uspsBig.png)
+
+## Citation 
+If you find the code useful for your research, please cite:
+```bibtex
+@Article{Zhou2018PRM,
+    title={M-ADDA: Unsupervised Domain Adaptation with Deep Metric Learning},
+    author={Laradji, Issam and Babanezhad, Reza},
+    journal = {arXiv},
+    year = {2018}
+}
+```
