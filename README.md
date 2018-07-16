@@ -30,8 +30,9 @@ Source (MNIST)            |  Target (USPS)
 
 ## Citation 
 If you find the code useful for your research, please cite:
+
 ```bibtex
-@Article{Zhou2018PRM,
+@Article{laradji2018m,
     title={M-ADDA: Unsupervised Domain Adaptation with Deep Metric Learning},
     author={Laradji, Issam and Babanezhad, Reza},
     journal = {arXiv},
