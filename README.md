@@ -1,5 +1,13 @@
 # M-ADDA: Metric-based Adversarial Discriminative Domain Adaptation [[Paper]](https://arxiv.org/abs/1807.02552)
 
+## Description
+
+The idea is to cluster the source dataset using the triplet loss and then cluster the target dataset using adversarial learning and the center-magnet loss (The Figure below shows the resultant clusters after using this method).
+
+Source (MNIST)            |  Target (USPS)
+:-------------------------:|:-------------------------:
+![](figures/src_mnistBig2uspsBig.png)  |  ![](figures/tgt_mnistBig2uspsBig.png)
+
 ## Requirements
 
 - Pytorch version 0.4 or higher.
@@ -32,9 +40,7 @@ To train the source and target models run the command,
 ```
 python main.py -e usps2mnist mnist2usps uspsBig2mnistBig mnistBig2uspsBig -m train -rt 1 -rs 1
 ```
-Source (MNIST)            |  Target (USPS)
-:-------------------------:|:-------------------------:
-![](figures/src_mnistBig2uspsBig.png)  |  ![](figures/tgt_mnistBig2uspsBig.png)
+
 
 ## Citation 
 If you find the code useful for your research, please cite:
