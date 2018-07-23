@@ -1,5 +1,11 @@
 # M-ADDA: Metric-based Adversarial Discriminative Domain Adaptation
 
+## Requirements
+
+- Pytorch version 0.4 or higher.
+
+## Running pretrained models
+
 To obtain the test results, run the following command,
 
 ```
@@ -18,6 +24,8 @@ which represent the accuracies obtained on the target test set.
 
 - mnistBig, and uspsBig use the full training set.
 - mnist, and usps use 2000 images from MNIST and 1800 images from USPS for training, respectively.
+
+## Training the models
 
 To train the source and target models run the command,
 
