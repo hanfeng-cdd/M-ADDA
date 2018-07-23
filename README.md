@@ -2,7 +2,7 @@
 
 ## Description
 
-The idea is to cluster the source dataset using the triplet loss and then cluster the target dataset using adversarial learning and the center-magnet loss (The Figure below shows the resultant clusters after using this method).
+The idea is to cluster the source dataset using the triplet loss and then cluster the target dataset using adversarial learning and the center-magnet loss. The Figure below shows the resultant clusters after using this method. The different colored stars represent the cluster centers, each corresponding to a different digit category.
 
 Source (MNIST)            |  Target (USPS)
 :-------------------------:|:-------------------------:
