@@ -1,4 +1,5 @@
 # M-ADDA: Metric-based Adversarial Discriminative Domain Adaptation [[Paper]](https://arxiv.org/abs/1807.02552)
+Accepted in the ICML 2018 Workshop of Domain Adaptation for Visual Understanding (DAVU).
 
 ## Description
 
