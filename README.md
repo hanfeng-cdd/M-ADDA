@@ -50,7 +50,7 @@ If you find the code useful for your research, please cite:
 @Article{laradji2018m,
     title={M-ADDA: Unsupervised Domain Adaptation with Deep Metric Learning},
     author={Laradji, Issam and Babanezhad, Reza},
-    journal = {arXiv},
+    journal={arXiv preprint arXiv:1807.02552},
     year = {2018}
 }
 ```
